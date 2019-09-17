@@ -1,4 +1,4 @@
-# Equipo7
+# Equipo 7️⃣
 
 **Integrantes**
 
