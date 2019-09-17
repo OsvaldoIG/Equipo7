@@ -2,10 +2,10 @@
 
 **Integrantes**
 
--[x] Cruz Rangel Leonardo Said
+[x] Cruz Rangel Leonardo Said
 
--[x] Ibañez Guzman Osvaldo
+[x] Ibañez Guzman Osvaldo
 
--[x] Maya Ortega Maria Fernanda
+[x] Maya Ortega Maria Fernanda
 
--[x] van der Werff Vargas Pieter Alexander
+[x] van der Werff Vargas Pieter Alexander
