@@ -12,4 +12,16 @@
 
 **Practicas**
 
-- [x] a
+- [x] Practica 1
+- [x] Practica 2
+- [x] Practica 3
+- [x] Practica 4
+- [x] Practica 5
+- [ ] Practica 6
+- [ ] Practica 7
+- [ ] Practica 8
+- [ ] Practica 9
+- [ ] Practica 10
+- [ ] Practica 11
+- [ ] Practica 12
+- [ ] Practica 13
