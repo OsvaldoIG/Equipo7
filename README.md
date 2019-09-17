@@ -1,7 +1,6 @@
 # Equipo7
 
 **Integrantes**
-[x]
 
 [x] Cruz Rangel Leonardo Said
 
