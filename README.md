@@ -9,3 +9,7 @@
 - Maya Ortega Maria Fernanda
 
 - van der Werff Vargas Pieter Alexander
+
+**Practicas**
+
+- [x] a
