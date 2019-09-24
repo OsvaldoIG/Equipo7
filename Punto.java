@@ -1,4 +1,4 @@
-package Equipo7-Practica7;
+package Equipo7_Practica7;
 
 public class Punto{
   protected int x;
