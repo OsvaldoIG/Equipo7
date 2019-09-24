@@ -1,5 +1,5 @@
 package Equipo7-Practica7;
-222222222
+
 public class Punto{
   private int x;
   private int y;
