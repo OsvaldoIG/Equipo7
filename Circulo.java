@@ -7,8 +7,7 @@ public class Circulo extends Punto{
   }
   
   public Circulo(int valorX, int valorY, double valorRadio){
-    x = valorX;
-    y = valorY;
+    super(valorX, valorY);
     setRadio(valorRadio);
   }
   
