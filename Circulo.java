@@ -32,6 +32,6 @@ public class Circulo extends Punto{
   }
   
   public String toString(){
-    return "Centro = ["+x+", "+y+"]; Radio = "+radio;
+    return "Centro = ["+getX()+", "+getY()+"]; Radio = "+radio;
   }
 }
