@@ -39,8 +39,7 @@ public class Circulo extends Punto{
   }
   
   public Circulo(int valorX, int valorY, double valorRadio){
-    x = valorX;
-    y = valorY;
+    super(valorX, valorY);
     setRadio(valorRadio);
   }
   
@@ -67,4 +66,18 @@ public class Circulo extends Punto{
   public String toString(){
     return "Centro = ["+x+", "+y+"]; Radio = "+radio;
   }
+  
+  public class Cilindro extends Circulo{
+    private int altura;
+    
+    public int setAltura(int altura){
+      this.altura = altura;
+    }
+    
+    public int getAltura(){
+      return altura;
+    }
+    public double getArea(){
+      return Math.PI * radio * radio * altura;
+    }
 }
