@@ -7,7 +7,7 @@ public class Punto{
   public Punto(){
   }
   
-  public Punto(int valorX, in valorY){
+  public Punto(int valorX, int valorY){
     x = valorX;
     y = valorY;
   }
