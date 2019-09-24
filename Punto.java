@@ -1,8 +1,8 @@
 package Equipo7-Practica7;
 
 public class Punto{
-  private int x;
-  private int y;
+  protected int x;
+  protected int y;
   
   public Punto(){
   }
@@ -29,7 +29,7 @@ public class Punto{
   }
   
   public String toString(){
-    return "["+x+", "+y+"]";
+    return "["+getX()+", "+getY()+"]";
   }
 
 public class Circulo extends Punto{
