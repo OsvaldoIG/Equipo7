@@ -18,23 +18,23 @@ public class Cilindro extends Circulo{
 	}
 
 	// sobrescribir método abstracto obtenerArea para devolver el área de Cilindro 
-	public abstract obtenerArea(){
+	public obtenerArea(){
 		return (2 * Math.PI * obtenerRadio() * obtenerRadio()) + (Math.PI * obtenerRadio() * obtenerAltura());
 	}
 
 	// sobrescribir método abstracto obtenerVolumne para devolver vaolr del cilindro
-	public abstract obtenerVolumen(){
+	public obtenerVolumen(){
 		return Math.PI * obtenerRadio() * obtenerRadio() * obtenerAltura();
 	}
 
 	// sobrescribir método abstracto obtenerNombre para devolver "Cilindro"
-	public abstract obtenerNombre(){
+	public obtenerNombre(){
 		return "Cilindro";
 	}
 
 	//sobrescribir toString para devolver representación String del Cilindro
 
-	public abstract toString(){
+	public toString(){
 		return "Radio = "+obtenerRadio()+" Altura = "+obtenerAltura();
 	}
 }
