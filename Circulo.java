@@ -32,7 +32,7 @@ public class Circulo extends Punto{
 		return "Centro = " + super.toString() + ", Radio = "  + obtenerRadio();
 	}
 
-	public abstact String obtenerNombre(){
+	public String obtenerNombre(){
 		return "Circulo";
 	}
 }
