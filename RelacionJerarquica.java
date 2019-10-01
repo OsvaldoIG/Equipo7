@@ -1,4 +1,4 @@
-public clases RelacionJerarquica{
+public class RelacionJerarquica{
   public static void main (String[] args){
     Punto punto = new Punto(30, 50);
     //Circulo circulo = new Circulo(120, 89, 2.7);
