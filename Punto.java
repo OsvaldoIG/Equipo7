@@ -30,7 +30,7 @@ public class Punto extends Figura{
   return "[" + getX() + ", " + getY() + "]";
  }
 
- public abstract String obtenerNombre(){
+ public String obtenerNombre(){
   return "Punto";
  }
 }
