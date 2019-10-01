@@ -6,7 +6,7 @@
 
 - Ibañez Guzman Osvaldo
 
-- Maya Ortega Maria Fernanda
+- ~~Maya Ortega Maria Fernanda~~
 
 - van der Werff Vargas Pieter Alexander
 
