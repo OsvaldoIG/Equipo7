@@ -1,4 +1,4 @@
-package my.equipo7.nomina;
+package com.equipo7.nomina;
 
 public class EmpleadoAsalariado extends Empleado{
     private double salarioSemanal;
