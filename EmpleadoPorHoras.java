@@ -1,4 +1,4 @@
-package my.com.equipo7.nomina;
+package com.equipo7.nomina;
 public classs EmpleadoPorHoras extends Empleado{
 	private double sueldo;
 	private int horas;
