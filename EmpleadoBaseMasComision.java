@@ -19,4 +19,8 @@ public class EmpleadoBaseMasComision extends EmpleadoPorComision{
         this.salarioBase = salario;
     }
     
+    public String ingresos(){
+        return "Los ingresos son de : "+((super.getTasaComision() * super.getVentasTotales()) + salarioBase);
+    }
+    
 }
