@@ -1,5 +1,5 @@
 package com.equipo7.nomina;
-public classs EmpleadoPorHoras extends Empleado{
+public class EmpleadoPorHoras extends Empleado{
 	private double sueldo;
 	private int horas;
 
