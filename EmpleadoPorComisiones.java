@@ -6,11 +6,12 @@ package com.equipo7.nomina;
  */
 public class EmpleadoPorComision extends Empleado{
     private int ventasTotales;
-    private float tasaComision;
+    private double tasaComision;
     
-    public EmpleadoPorComision (String nombre,String apellido,String numSS, double sueldo){ 
+    public EmpleadoPorComision (String nombre,String apellido,String numSS, int ventasTotales, double tasaComision){ 
         super(nombre, apellido, numSS);
-        super.sueldo = sueldo;
+        this.ventasTotales = ventasTotales;
+        this.tasaComision = tasaComision;
     }
     
     public void setVentasTotales(int ventas){
@@ -25,11 +26,11 @@ public class EmpleadoPorComision extends Empleado{
         return ventasTotales;
     }
     
-    public float getTasaComision(){
+    public double getTasaComision(){
         return tasaComision;
     }
     
     public String ingresos(){
-        return "Los ingresos son de : "+(ventasTotales * tasaComision);
+        return ""+(ventasTotales * tasaComision);
     }
 }
