@@ -2,12 +2,14 @@ package com.equipo7.nomina;
 
 public class EmpleadoAsalariado extends Empleado{
     private double salarioSemanal;
-    public EmpleadoAsalariado(String nombre, String apellido, String numeroSS){
+    
+    public EmpleadoAsalariado(String nombre, String apellido, String numeroSS, double salarioSemanal){
         super(nombre,apellido,numeroSS);
+        this.salarioSemanal = salarioSemanal;
     }
     
     public String ingresos(){
-        return "Salario Semanal "+getSalarioSemanal();
+        return ""+getSalarioSemanal();
     }
     
     public void setSalarioSemanal(double sueldo){
@@ -19,4 +21,3 @@ public class EmpleadoAsalariado extends Empleado{
     }
     
 }
-
