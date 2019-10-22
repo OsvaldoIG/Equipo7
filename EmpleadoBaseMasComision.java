@@ -7,8 +7,9 @@ package com.equipo7.nomina;
 public class EmpleadoBaseMasComision extends EmpleadoPorComision{
     private double salarioBase;
     
-    EmpleadoBaseMasComision(String nombre, String apellido, String numSS, double sueldo){ 
-        super(nombre, apellido, numSS, sueldo);
+    EmpleadoBaseMasComision(String nombre, String apellido, String numSS, int ventasTotales, double tasaComision, double salarioBase){ 
+        super(nombre, apellido, numSS, ventasTotales, tasaComision);
+        this.salarioBase = salarioBase;
     }
     
     public double getSalarioBase(){
@@ -20,7 +21,7 @@ public class EmpleadoBaseMasComision extends EmpleadoPorComision{
     }
     
     public String ingresos(){
-        return "Los ingresos son de : "+((super.getTasaComision() * super.getVentasTotales()) + salarioBase);
+        return ""+((super.getTasaComision() * super.getVentasTotales()) + salarioBase);
     }
     
 }
