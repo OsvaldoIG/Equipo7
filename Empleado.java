@@ -1,10 +1,7 @@
-package my.equipo7.nomina;
-
 public abstract class Empleado {
     String nombre;
     String apellido;
     String numSS;
-    double sueldo;
 
     public Empleado (String nombre, String apellido, String numSS){
         this.nombre = nombre;
@@ -16,7 +13,7 @@ public abstract class Empleado {
         return "Nombre: "+apellido+" "+nombre+"\nNumero de Seguridad Social: "+numSS;
     }
     
-    public abstract void ingresos();
+    public abstract String ingresos();
     
     public void setNombre(String nombre){
         this.nombre = nombre;
@@ -29,6 +26,7 @@ public abstract class Empleado {
     public void setNumSS(String numSS){
         this.numSS = numSS;
     }
+    
     
     public String getNombre(){
         return nombre;
