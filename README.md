@@ -21,8 +21,8 @@
 - [x] Practica 7
 - [x] Practica 8
 - [x] Practica 9
-- [ ] Practica 10
-- [ ] Practica 11
+- [x] Practica 10
+- [x] Practica 11
 - [ ] Practica 12
 - [ ] Practica 13
 
