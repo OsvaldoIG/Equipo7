@@ -44,4 +44,18 @@ public class Persona {
 
 	}
 	
+	public static class BuilderMayor extends Builder{
+		public BuilderMayor(Persona persona){
+			this.persona = persona;
+		}
+		public Persona setMayor(Persona persona){
+			if (persona.edad < 18) throw new IllegalArgumentException("es menor de edad " + edad);
+			this.persona = persona;
+			return this.persona;
+		}
+		public BuilderMayor setLugarTrabajo(String lugarTrabajo){
+			this.persona.lugarTrabajo = lugarTrabajo;
+			return this;
+		}
+	}
 }
