@@ -44,7 +44,7 @@ public class Persona {
 
 	}
 	
-	public static class BuilderMayor extends Builder{
+	public static class BuilderMayor{
 		public BuilderMayor(Persona persona){
 			this.persona = persona;
 		}
@@ -56,6 +56,26 @@ public class Persona {
 		public BuilderMayor setLugarTrabajo(String lugarTrabajo){
 			this.persona.lugarTrabajo = lugarTrabajo;
 			return this;
+		}
+		public Persona build(){
+			return persona;
+		}
+	}
+	public static class BuilderMenor{
+		private Persona persona;
+		public BuilderMenor(Persona persona){
+			this.persona = persona;
+		}
+		public BuilderMenor setMenor(Persona persona){
+			this.persona = persona;
+			return this;
+		}
+		public BuilderMenor setLugarColegio(String lugarColegio){
+			this.persona.lugarColegio = lugarColegio;
+			return this;
+		}
+		public Persona build(){
+			return persona;
 		}
 	}
 }
