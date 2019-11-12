@@ -23,7 +23,7 @@
 - [x] Practica 9
 - [x] Practica 10
 - [x] Practica 11
-- [ ] Practica 12
+- [x] Practica 12
 - [ ] Practica 13
 
 
