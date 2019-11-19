@@ -37,8 +37,7 @@ public class Persona {
 			return this;
 		}
 		public Builder setMayor(int edad) {
-			persona = new BuilderMayor(edad);
-			return this;
+			persona.edad = edad;
 		}
 		
 		public Builder setMenor(int edad, String colegio) {
@@ -50,8 +49,7 @@ public class Persona {
 		}
 		
 		public Builder setMenor(int edad) {
-			persona = new BuilderMenor(edad);
-			return this;
+			persona.edad = edad;
 		}
 	
 		public Persona build() {
