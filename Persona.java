@@ -22,6 +22,13 @@ public class Persona {
 			return this;
 		}
 		
+		public Builder setLugarTrabajo(String lugarTrabajo){
+			persona.lugarTrabajo = lugarTrabajo;	
+		}
+		public Builder setColegio(String colegio){
+			persona.colegio = colegio;	
+		}
+		
 		public Builder setMayor(int edad, String lugarTrabajo) {
 			if (edad < 18) throw new IllegalArgumentException("es menor de edad " + edad);
 			persona.edad = edad;
@@ -29,11 +36,26 @@ public class Persona {
 			persona.colegio = null;
 			return this;
 		}
+		public Builder setMayor(int edad) {
+			if (edad < 18) throw new IllegalArgumentException("es menor de edad " + edad);
+			persona.edad = edad;
+			persona.colegio = null;
+			persona.lugarTrabajo = null;
+			return this;
+		}
 		
 		public Builder setMenor(int edad, String colegio) {
 			if (edad >= 18) throw new IllegalArgumentException("es mayor de edad " + edad);
 			persona.edad = edad;
 			persona.colegio = colegio;
+			persona.lugarTrabajo = null;
+			return this;
+		}
+		
+		public Builder setMenor(int edad) {
+			if (edad >= 18) throw new IllegalArgumentException("es mayor de edad " + edad);
+			persona.edad = edad;
+			persona.colegio = null;
 			persona.lugarTrabajo = null;
 			return this;
 		}
