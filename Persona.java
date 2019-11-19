@@ -45,6 +45,7 @@ public class Persona {
 	}
 	
 	public static class BuilderMayor{
+		private Persona persona;
 		public BuilderMayor(Persona persona){
 			this.persona = persona;
 		}
