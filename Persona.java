@@ -22,10 +22,12 @@ public class Persona {
 		}
 		
 		public Builder setLugarTrabajo(String lugarTrabajo){
-			persona.lugarTrabajo = lugarTrabajo;	
+			persona.lugarTrabajo = lugarTrabajo;
+                        return this;
 		}
 		public Builder setColegio(String colegio){
-			persona.colegio = colegio;	
+			persona.colegio = colegio;
+                        return this;
 		}
 		
 		public Builder setMayor(int edad, String lugarTrabajo) {
@@ -37,6 +39,7 @@ public class Persona {
 		}
 		public Builder setMayor(int edad) {
 			persona.edad = edad;
+                        return this;
 		}
 		
 		public Builder setMenor(int edad, String colegio) {
@@ -49,6 +52,7 @@ public class Persona {
 		
 		public Builder setMenor(int edad) {
 			persona.edad = edad;
+                        return this;
 		}
 	
 		public Persona build() {
