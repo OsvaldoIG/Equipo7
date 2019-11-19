@@ -1,5 +1,4 @@
 public class Persona {
-
 	private String nombre;
 	private int edad;
 	private String municipio;
@@ -64,7 +63,7 @@ public class Persona {
 			this.persona = persona;
 		}
 		public Persona setMayor(Persona persona){
-			if (persona.edad < 18) throw new IllegalArgumentException("es menor de edad " + edad);
+			if (persona.edad < 18) throw new IllegalArgumentException("es menor de edad " + persona.edad);
 			this.persona = persona;
 			return this.persona;
 		}
@@ -86,7 +85,7 @@ public class Persona {
 			return this;
 		}
 		public BuilderMenor setLugarColegio(String lugarColegio){
-			this.persona.lugarColegio = lugarColegio;
+			persona.colegio = lugarColegio;
 			return this;
 		}
 		public Persona build(){
