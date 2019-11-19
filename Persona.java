@@ -37,10 +37,7 @@ public class Persona {
 			return this;
 		}
 		public Builder setMayor(int edad) {
-			if (edad < 18) throw new IllegalArgumentException("es menor de edad " + edad);
-			persona.edad = edad;
-			persona.colegio = null;
-			persona.lugarTrabajo = null;
+			persona = new BuilderMayor(edad);
 			return this;
 		}
 		
@@ -53,10 +50,7 @@ public class Persona {
 		}
 		
 		public Builder setMenor(int edad) {
-			if (edad >= 18) throw new IllegalArgumentException("es mayor de edad " + edad);
-			persona.edad = edad;
-			persona.colegio = null;
-			persona.lugarTrabajo = null;
+			persona = new BuilderMenor(edad);
 			return this;
 		}
 	
